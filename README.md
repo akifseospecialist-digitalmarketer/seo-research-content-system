@@ -59,7 +59,7 @@ If sources disagree, the conflict is shown in the Resolved Inputs table instead 
 ## Installation
 
 ### Claude (web / desktop / mobile)
-1. Download `seo-research-content-system.zip` from the [Releases](../../releases) page, or zip the `seo-research-content-system/` folder yourself (the zip must contain the folder with `SKILL.md` inside it).
+1. Download [`seo-research-content-system.skill`](seo-research-content-system.skill) from this repo (it's a zip of the skill folder), or zip the `seo-research-content-system/` folder yourself (the zip must contain the folder with `SKILL.md` inside it).
 2. Upload it in Claude's skills settings and switch it on.
 3. Optional but recommended: add a filled copy of [`templates/project-brief.md`](templates/project-brief.md) to each client's **Claude Project knowledge**. The skill will pick it up automatically, so you only ever need to type the keyword.
 
@@ -121,6 +121,7 @@ More in [`examples/usage-examples.md`](examples/usage-examples.md).
 seo-research-content-system/
 ├── README.md
 ├── LICENSE
+├── seo-research-content-system.skill   ← ready-to-upload skill package
 ├── seo-research-content-system/      ← the skill (upload / copy this folder)
 │   └── SKILL.md
 ├── templates/
