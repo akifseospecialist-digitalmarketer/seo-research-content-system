@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-label="How it works: 1 resolve inputs from you, your Claude Project or the website, 2 research the SERP, PAA and AI queries, 3 analyse the top 3 competitors, 4 plan and write the page, 5 audit and deliver the report">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070d1c"/><stop offset="1" stop-color="#101a3a"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#475569"/>
+    </marker>
+  </defs>
+  <style>
+    .f { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .pulse { animation: pulse 5s ease-in-out infinite; }
+    .p2 { animation-delay: 1s; } .p3 { animation-delay: 2s; } .p4 { animation-delay: 3s; } .p5 { animation-delay: 4s; }
+    @keyframes pulse { 0%,100% { stroke-opacity: .35; } 10%,20% { stroke-opacity: 1; } }
+    .flow { stroke-dasharray: 6 6; animation: flow 1.2s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -12; } }
+  </style>
+  <rect width="1200" height="270" rx="22" fill="url(#bg)"/>
+
+  <g class="f">
+    <g transform="translate(30,40)">
+      <rect class="pulse" width="212" height="190" rx="16" fill="#0b1324" stroke="#22d3ee" stroke-width="2"/>
+      <circle cx="30" cy="32" r="16" fill="#22d3ee" fill-opacity=".15" stroke="#22d3ee"/><text x="30" y="38" text-anchor="middle" font-size="15" font-weight="800" fill="#a5f3fc">1</text>
+      <text x="56" y="38" font-size="17" font-weight="700" fill="#f8fafc">Resolve inputs</text>
+      <text x="20" y="74" font-size="13" fill="#cbd5e1">Your message, files,</text>
+      <text x="20" y="94" font-size="13" fill="#cbd5e1">Claude Project, website.</text>
+      <text x="20" y="114" font-size="13" fill="#cbd5e1">Asks only if critical</text>
+      <text x="20" y="160" class="mono" font-size="11" fill="#64748b">every field gets</text>
+      <text x="20" y="176" class="mono" font-size="11" fill="#64748b">a labelled source</text>
+    </g>
+    <g transform="translate(262,40)">
+      <rect class="pulse p2" width="212" height="190" rx="16" fill="#0b1324" stroke="#a78bfa" stroke-width="2"/>
+      <circle cx="30" cy="32" r="16" fill="#a78bfa" fill-opacity=".15" stroke="#a78bfa"/><text x="30" y="38" text-anchor="middle" font-size="15" font-weight="800" fill="#ddd6fe">2</text>
+      <text x="56" y="38" font-size="17" font-weight="700" fill="#f8fafc">Research</text>
+      <text x="20" y="74" font-size="13" fill="#cbd5e1">Autocomplete, PAA,</text>
+      <text x="20" y="94" font-size="13" fill="#cbd5e1">PASF, related, AI-style</text>
+      <text x="20" y="114" font-size="13" fill="#cbd5e1">queries → query map</text>
+      <text x="20" y="160" class="mono" font-size="11" fill="#64748b">observed vs inferred,</text>
+      <text x="20" y="176" class="mono" font-size="11" fill="#64748b">no guessed metrics</text>
+    </g>
+    <g transform="translate(494,40)">
+      <rect class="pulse p3" width="212" height="190" rx="16" fill="#0b1324" stroke="#34d399" stroke-width="2"/>
+      <circle cx="30" cy="32" r="16" fill="#34d399" fill-opacity=".15" stroke="#34d399"/><text x="30" y="38" text-anchor="middle" font-size="15" font-weight="800" fill="#a7f3d0">3</text>
+      <text x="56" y="38" font-size="17" font-weight="700" fill="#f8fafc">Top 3 rivals</text>
+      <text x="20" y="74" font-size="13" fill="#cbd5e1">Structure, tone, depth,</text>
+      <text x="20" y="94" font-size="13" fill="#cbd5e1">trust signals, schema</text>
+      <text x="20" y="114" font-size="13" fill="#cbd5e1">→ comparison + gaps</text>
+      <text x="20" y="160" class="mono" font-size="11" fill="#64748b">learn the pattern,</text>
+      <text x="20" y="176" class="mono" font-size="11" fill="#64748b">never copy wording</text>
+    </g>
+    <g transform="translate(726,40)">
+      <rect class="pulse p4" width="212" height="190" rx="16" fill="#0b1324" stroke="#fbbf24" stroke-width="2"/>
+      <circle cx="30" cy="32" r="16" fill="#fbbf24" fill-opacity=".15" stroke="#fbbf24"/><text x="30" y="38" text-anchor="middle" font-size="15" font-weight="800" fill="#fde68a">4</text>
+      <text x="56" y="38" font-size="17" font-weight="700" fill="#f8fafc">Plan &amp; write</text>
+      <text x="20" y="74" font-size="13" fill="#cbd5e1">Outline with a reason</text>
+      <text x="20" y="94" font-size="13" fill="#cbd5e1">per section, then the</text>
+      <text x="20" y="114" font-size="13" fill="#cbd5e1">service page or blog</text>
+      <text x="20" y="160" class="mono" font-size="11" fill="#64748b">meta · links · schema</text>
+      <text x="20" y="176" class="mono" font-size="11" fill="#64748b">AEO / GEO answers</text>
+    </g>
+    <g transform="translate(958,40)">
+      <rect class="pulse p5" width="212" height="190" rx="16" fill="#0b1324" stroke="#f472b6" stroke-width="2"/>
+      <circle cx="30" cy="32" r="16" fill="#f472b6" fill-opacity=".15" stroke="#f472b6"/><text x="30" y="38" text-anchor="middle" font-size="15" font-weight="800" fill="#fbcfe8">5</text>
+      <text x="56" y="38" font-size="17" font-weight="700" fill="#f8fafc">Audit &amp; deliver</text>
+      <text x="20" y="74" font-size="13" fill="#cbd5e1">10 scores; anything</text>
+      <text x="20" y="94" font-size="13" fill="#cbd5e1">under 8 gets revised.</text>
+      <text x="20" y="114" font-size="13" fill="#cbd5e1">Report + content file</text>
+      <text x="20" y="160" class="mono" font-size="11" fill="#64748b">16-part report,</text>
+      <text x="20" y="176" class="mono" font-size="11" fill="#64748b">ready to paste</text>
+    </g>
+
+    <g stroke="#475569" stroke-width="2" fill="none" marker-end="url(#arr)">
+      <path class="flow" d="M243 135H260"/>
+      <path class="flow" d="M475 135H492"/>
+      <path class="flow" d="M707 135H724"/>
+      <path class="flow" d="M939 135H956"/>
+    </g>
+  </g>
+</svg>

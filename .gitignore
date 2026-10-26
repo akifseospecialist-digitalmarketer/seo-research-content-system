@@ -1,0 +1,14 @@
+# Keep client work out of the repo
+*-seo-content-report.md
+*-content.md
+*.docx
+*.xlsx
+*.csv
+clients/
+output/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
